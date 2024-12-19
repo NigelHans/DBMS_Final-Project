@@ -13,7 +13,6 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 
--- Insert initial data into users table
 INSERT INTO users (identity_type, username, password) VALUES
     ('Doctor', 'Nigel', 'nigel1234'),
     ('Patient', 'Anjo', 'anjo1234'),
