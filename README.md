@@ -1,25 +1,58 @@
-Key Features:
+# DBMS Project
+Medicare System
+This project is a Database Management System (DBMS) designed to manage the data and operations for a Medicare system. It supports user registration and login, appointment scheduling, and medical history management.
 
-Console-based database management system.
+# 📋Objective
+To develop a digital system that securely manages user accounts and healthcare data, fostering seamless interactions between patients and doctors while ensuring efficient record-keeping and prescription management.
 
-Backend logic implemented in Java.
+# ✨ Key Features
+⧠ Console-based database management system.
 
-Database operations powered by MySQL.
+⧠ Backend logic implemented in Java.
 
-Modular programming principles for clean and maintainable code.
+⧠ Database operations powered by MySQL.
 
-Project Structure Overview
+⧠ Modular programming principles for clean and maintainable code.
 
-The code is organized into multiple packages and classes to ensure clarity and modularity.
+# 📝Project Structure Overview
+⧠ main package: Contains the entry point (Medicare_DBMS).
 
-File Structure Breakdown:
+⧠ model package: Defines core data structures like Person, Doctor, and Patient.
 
-main package: Contains the entry point (Medicare_DBMS).
+⧠ service package: Handles business logic and user interactions through classes like UserService, DoctorService, and PatientService.
 
-model package: Defines core data structures like Person, Doctor, and Patient.
+⧠ dao package: Manages database operations via UserDAO.
 
-service package: Handles business logic and user interactions through classes like UserService, DoctorService, and PatientService.
+⧠ util package: Provides utility classes such as DBConnection for database connectivity.
 
-dao package: Manages database operations via UserDAO.
+# 👨🏻‍💻User Roles
+⧠ Doctor
 
-util package: Provides utility classes such as DBConnection for database connectivity.
+  ⧠ View patient records and medical history.
+  
+  ⧠ Add new medical history for patients.
+  
+  ⧠ View and manage appointments.
+  
+⧠ Patient
+
+  ⧠ View personal health profiles.
+  
+  ⧠ View a list of available doctors.
+  
+  ⧠ Schedule and manage appointments.
+  
+  ⧠ Access medical history.
+
+# 🛢Database Structure
+⧠ The application connects to a MySQL database (medicaredb) and uses the following tables:
+
+⧠ Users: Stores credentials and roles (Doctor/Patient).
+
+⧠ Doctors: Holds doctor details such as name, age, and specialty.
+
+⧠ Patients: Stores patient information like name, age, and health conditions.
+
+⧠ Appointments: Tracks doctor-patient appointments.
+
+⧠ Medical History: Maintains patient medical records.
