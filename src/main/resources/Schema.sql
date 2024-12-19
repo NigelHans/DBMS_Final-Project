@@ -1,3 +1,5 @@
+CREATE DATABASE 'medicaredb';
+
 USE medicaredb;
 
 DROP TABLE IF EXISTS users;
