@@ -26,23 +26,23 @@ To develop a digital system that securely manages user accounts and healthcare d
 ⧠ util package: Provides utility classes such as DBConnection for database connectivity.
 
 # 👨🏻‍💻User Roles
-⧠ Doctor
+👨🏻‍⚕️ Doctor
 
-  ⧠ View patient records and medical history.
+     ⧠ View patient records and medical history.
   
-  ⧠ Add new medical history for patients.
+     ⧠ Add new medical history for patients.
   
-  ⧠ View and manage appointments.
+     ⧠ View and manage appointments.
   
-⧠ Patient
+🙍‍♂️ Patient
 
-  ⧠ View personal health profiles.
+     ⧠ View personal health profiles.
   
-  ⧠ View a list of available doctors.
+     ⧠ View a list of available doctors.
   
-  ⧠ Schedule and manage appointments.
+     ⧠ Schedule and manage appointments.
   
-  ⧠ Access medical history.
+     ⧠ Access medical history.
 
 # 🛢Database Structure
 ⧠ The application connects to a MySQL database (medicaredb) and uses the following tables:
@@ -56,3 +56,20 @@ To develop a digital system that securely manages user accounts and healthcare d
 ⧠ Appointments: Tracks doctor-patient appointments.
 
 ⧠ Medical History: Maintains patient medical records.
+
+# 🚀 Benefits
+
+⧠ Enhanced Healthcare Management: Secure and organized handling of patient data and medical records.
+
+⧠ Improved Communication: Facilitates seamless interactions between doctors and patients.
+
+⧠ Efficient Service Delivery: Supports better decision-making and healthcare service delivery.
+
+# 🛡️ Security Measures
+
+  ⧠ Credentials are securely managed using encryption methods.
+  
+  ⧠ Data persistence ensures information is retained across sessions.
+
+
+
